@@ -1,0 +1,6 @@
+PyExecJs==1.5.1
+pycryptodome
+pillow
+beautifulsoup4~=4.12.2
+lxml
+requests~=2.31.0
