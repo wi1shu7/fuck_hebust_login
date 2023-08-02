@@ -21,7 +21,7 @@ class HebustLogin(object):
             username = config.username
             password = config.password
 
-        if config.passwordCryptKey:
+        if config.encrypt:
             password = self.aes_decrypt(config.passwordCryptKey, config.passwordCryptIv, password)
 
         self.__webRootPath = ['https://jw.hebust.edu.cn', 'https://202.206.64.231']
